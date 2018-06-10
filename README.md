@@ -33,3 +33,8 @@ sudo rm /usr/share/X11/xorg.conf.d/20-intel.conf
 sudo update-initramfs -u
 sudo update-grub
 ```
+## Motherfucking LCD backlight
+
+```sh
+[grub cmd line] acpi_backlight=vendor
+```
